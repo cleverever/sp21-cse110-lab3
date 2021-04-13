@@ -32,6 +32,46 @@
                 <div></div>
             </section>
         </main>
-        <footer></footer>
+        <form>
+            <fieldset>
+                <label for="date">Entry Date</label>
+                <input type="date"
+                id="date"
+                min="2021-01-01"
+                max="2021-12-31">
+                <label for="good">That day was good!</label><br>
+                <input type="radio" id="good" name="rating" value="good">
+                <label for="sucky">That day was sucky!</label><br>
+                <input type="radio" id="sucky" name="rating" value="sucky">
+                <label for="day">Select a day of the week:</label>
+                <select name="day" id="day">
+                    <option value="">--Please choose an option--</option>
+                    <option value="M">Monday</option>
+                    <option value="Tu">Tuesday</option>
+                    <option value="W">Wednesday</option>
+                    <option value="Th">Thursday</option>
+                    <option value="F">Friday</option>
+                    <option value="Sa">Saturday</option>
+                    <option value="Su">Sunday</option>
+                </select>
+                <label for="weather">Weather</label><br>
+                <input type="text" id="weather" list="weather">
+                <datalist id="weather">
+                    <option value="Clear"></option>
+                    <option value="Cloudy"></option>
+                    <option value="Rain"></option>
+                    <option value="404: Weather not found"></option>
+                </datalist>
+                <label for="entry">Entry</label>
+                <textarea id="entry" name="entry" rows="10" cols="100">
+                    Write your main journal entry here.
+                </textarea>
+                <label for="private">Private post</label><br>
+                <input type="checkbox" id="private" name="private" value="true">
+                <button name="button">Submit entry</button>
+            </fieldset>
+        </form>
+        <footer>
+        </footer>
     </body>
 </html>
