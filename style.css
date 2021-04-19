@@ -1,6 +1,12 @@
 header
 {
     position: fixed;
+    background-color: cadetblue;
+}
+body > div
+{
+    position: relative;
+    top: 40px;
 }
 header ~ *
 {
@@ -15,10 +21,10 @@ header ~ *
     margin-bottom:0.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 #title *
 {
