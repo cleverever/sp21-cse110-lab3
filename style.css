@@ -1,0 +1,61 @@
+header
+{
+    position: sticky;
+}
+body
+{
+    position: static;
+}
+#title > h3 /*This is the line which says "Last Minute"*/
+{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: hsl(10, 75, 50);
+    background-color: black;
+    margin-top: 0.5rem;
+    margin-bottom:0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+#title *
+{
+    min-width: 50cm;
+    font-family: 'Alfa Slab One', cursive;
+}
+summary + span
+{
+    color: red;
+    text-decoration: black;
+}
+.entry
+{
+    height: 4em;
+    width: 90vw;
+}
+p.caption
+{
+    color: rgb(50, 100, 150);
+    background-color: #d0d0d0;
+    margin: 5mm 5mm 5mm 5mm;
+    padding: 12px 12px 12px 12px;
+}
+#entry-list > li > a /*The links to the different entries*/
+{
+    color: rgb(0, 0, 0);
+}
+#entry-list > li > a:hover
+{
+    color: rgb(0, 150, 200);
+}
+#entry-list > li > a:active
+{
+    color: rgb(50, 200, 250);
+}
+p
+{
+    font-family: 'Bangers', cursive;
+}

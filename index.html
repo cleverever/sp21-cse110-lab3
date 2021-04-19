@@ -5,16 +5,28 @@
         <title>Everett Craw's Journal</title>
         <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" type="image/x-icon" href="assets/R0181caf73dfa2e9fe1eb2f72b3056929.jfif">
+        <style>
+            title
+            {
+                border-style: solid;
+                border-color: #61a3dae7;
+                border-radius: 5%;
+            }
+        </style>
     </head>
     <body>
-        <header>
-            <h2>Everett Craw's <strong>Glorious</strong></h2>
+        <header id="title">
+            <h2>
+                <span style="border-style:solid;border-color:black;border-width:2px;">
+                    Everett Craw's
+                </span> <strong>Glorious</strong>
+            </h2>
             <h3><em>Last minute</em></h3>
             <h1><b>Journal</b></h1>
         </header>
         <hr>
         <nav>
-            <ol>
+            <ol id="entry-list">
                 <li><a href="#4/12/2021">4/12/2021</a></li>
                 <li><a href="#4/11/2021">4/11/2021</a></li>
                 <li><a href="#4/10/2021">4/10/2021</a></li>
@@ -22,16 +34,16 @@
         </nav>
         <hr>
         <main>
-            <section>
+            <section id="first-day">
                 <details>
-                    <summary><h3><a name="4/12/2021">4/12/2021</a></h3></summary>
-                    Monday
+                    <summary><h3><a class="entry-heading" name="4/12/2021">4/12/2021</a></h3></summary>
+                    <span>Monday</span>
                 </details>
                 <div>
-                    <p>
+                    <p class="entry">
                         Today I am still grinding away on loads of homework. This must be what <strong>technical debt</strong> is like. Because I didn't do things right the first time by doing my assignments promptly, I'm paying the price now. <i>I really need to get on top of my stuff</i>.
                     </p>
-                    <p>Here is an inspirational video which has helped me get through the grind.</p>
+                    <p class="caption">Here is an inspirational video which has helped me get through the grind.</p>
                     <video controls
                     src="assets/Inspiration.ogv"
                     poster="assets/R0181caf73dfa2e9fe1eb2f72b3056929.jfif"
@@ -40,28 +52,28 @@
                 </div>
             </section>
             <hr>
-            <section>
+            <section id="second-day">
                 <details>
-                    <summary><h3><a name="4/11/2021">4/11/2021</a></h3></summary>
-                    Sunday
+                    <summary><h3><a class="entry-heading" name="4/11/2021">4/11/2021</a></h3></summary>
+                    <span>Sunday</span>
                 </details>
                 <div>
-                    <p>
+                    <p class="entry">
                         Today I'm just grinding on homework still. I'm still in a bit of pain still from yesterday. Nothing special is supposed to happen today other than me returning to campus.
                     </p>
-                    <p>Here is an exact photo representation of how bored I was.</p>
+                    <p class="caption">Here is an exact photo representation of how bored I was.</p>
                     <img src="assets/3bkcig.jpg"
                     alt="Mike Wazowski face swap">
                 </div>
             </section>
             <hr>
-            <section>
+            <section id="third-day">
                 <details>
-                    <summary><h3><a name="4/10/2021">4/10/2021</a></h3></summary>
-                    Saturday
+                    <summary><h3><a class="entry-heading" name="4/10/2021">4/10/2021</a></h3></summary>
+                    <span>Saturday</span>
                 </details>
                 <div>
-                    <p>
+                    <p class="entry">
                         I'm back home today to see my cousin who is in the military. He had some time off so I felt obligated to go see him. Half the time, I am still on the homework grind. Here are the things I need to get done:
                     </p>
                     <ul>
@@ -69,10 +81,10 @@
                         <li>ECE 35 homework</li>
                         <li>CSE 101 homework</li>
                     </ul>
-                    <p>
+                    <p class="entry">
                         I went biking later that day with my uncle and ended up <span>falling</span> and getting scraped up pretty good due to some loose terrain.
                     </p>
-                    <p>
+                    <p class="caption">
                         Here is what it probably sounded like when I fell off the bike.
                     </p>
                     <audio controls src="assets/Roblox-death-sound.mp3">
