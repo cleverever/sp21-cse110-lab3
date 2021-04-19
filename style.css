@@ -1,6 +1,6 @@
 header
 {
-    position: sticky;
+    position: fixed;
 }
 header ~ *
 {
@@ -8,7 +8,7 @@ header ~ *
 }
 #title > h3 /*This is the line which says "Last Minute"*/
 {
-    text-align: center;
+    text-align: left;
     font-family: 'Shadows Into Light', cursive;
     color: hsl(10, 75, 50);
     margin-top: 0.5rem;
@@ -23,7 +23,6 @@ header ~ *
 #title *
 {
     min-width: 50cm;
-    font-family: 'Alfa Slab One', cursive;
 }
 summary + span
 {
