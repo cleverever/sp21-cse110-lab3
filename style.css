@@ -1,12 +1,12 @@
 header
 {
-    position: fixed;
+    position: static;
     background-color: cadetblue;
 }
 body > div
 {
     position: relative;
-    top: 40px;
+    top: 150px;
 }
 header ~ *
 {
